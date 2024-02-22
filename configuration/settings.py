@@ -57,8 +57,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'  # Replace with your SMTP server address
 EMAIL_PORT = 587  # Replace with your SMTP port number
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'dev1.wappnet@gmail.com'  # Replace with your email address
-EMAIL_HOST_PASSWORD = 'gspkqdskosxfstyq'  # Replace with your email password
+EMAIL_HOST_USER = ''  # Replace with your email address
+EMAIL_HOST_PASSWORD = ''  # Replace with your email password
 
 # Django Rest Framework Token Authentication
 REST_FRAMEWORK = {
